@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+/*-=-=-=Google---Fonts=--=-
+font-family: 'Open Sans', sans-serif;
+*/
+*{
+    padding: 0;
+    margin: 0;
+}
+/*Common----CSS-start*/
+a{
+    text-decoration: none;
+    text-transform: capitalize;
+}
+body{
+    font-family: 'Open Sans';
+}
+
+/*Common----CSS-end*/
+
+.panda-header-menu{
+    margin: 20px 0;
+}
+.logo_img_panda{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.panda_menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.panda_menu ul li{
+    margin: 0 8px;
+    border-radius: 2px;
+}
+.panda_menu ul li a{
+    color: rgb(51, 48, 48);
+    padding: 10px 15px;
+    display: block;
+    font-weight: 400;
+    transition: .3s;
+}
+.panda_menu ul li a:hover{
+    color: lightslategrey;
+}
+.orng_bg{
+    background-color: #FEEAE9;
+    border-radius: 30px !important;
+}
+.price{
+    color: #FF3282;
+}
+.buy_now_button{
+    color: #fff;
+    border-radius: 6px;
+    border: none;
+    background: #FF3282;
+    padding: 9px 20px;
+}
+
+.container{
+    margin-bottom: 50px;
+}
+#carouselExampleControls{
+    padding: 50px;
+}
+.cat-1, .cat-2, .cat-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    color: #fff;
+    padding: 10px 30px;
+}
+.cat-1{
+    background-color: orange;
+}
+.cat-2{
+    background-color: #FF3282;
+    
+}
+.cat-3{
+    background-color: #3F1AF9;
+}
+
+.sjow_section{
+    margin: 80px 0;
+}
+.title_show .t1{
+    font-size: 25px;
+    font-weight: 700;
+}
+.title_show .t2{
+    float: right;
+    font-size: 15px;
+    color: #ffb743;
+    font-weight: 600;
+    text-decoration: underline;
+}
+.panda_card{
+    width: 300px;
+    height: 400px;
+    background-color: #e9e9e9;
+    border-radius: 3px;
+    margin: 20px 0;
+}
+.panda_card img{
+    width: 100%;
+}
+.panda_card_body{
+    text-align: center;
+}
+.panda_card_body p{
+    font-size: 15px;
+}
+.panda_card_body .panda_price{
+    font-size: 20px;
+    font-weight: 700;
+}
+.price-p{
+    background: black;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 7px;
+    transition: .3s;
+}
+.price-p:hover{
+    color: #ced4da;
+}
+.panda_bag_card{
+    width: 300px;
+    height: 500px;
+    background-color: #e9e9e9;
+    border-radius: 3px;
+    margin: 20px 0;
+}
+.panda_bag_card img{
+    width: 100%;
+}
+.panda_bag_body{
+    text-align: center;
+    margin-top: 20px;
+}
+.panda_bag_body p{
+    font-size: 15px;
+}
+.panda_bag_body .panda_price{
+    font-size: 20px;
+    font-weight: 700;
+}
+.all_catagori_center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*-=-=-=Section-Ends*/
+/*-=-=-=subscription--section--start*/
+.subcription_section{
+    background-color: #ebd4d3;
+    text-align: center;
+    padding: 80px 0;
+    border-radius: 5px;
+}
+.sub_title h2{
+    text-transform: uppercase;
+}
+.sub_title p{
+    color: #8b8282;
+    text-transform: capitalize;
+    font-size: 14px;
+}
+.sub_forms input{
+    width: 350px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    display: inline-block;
+}
+.sub_button{
+    background-color: #FF3282;
+    padding: 10px 30px;
+    border-radius: 5px;
+    font-size: 20px;
+    color: #fff;
+    transition: .3s;
+}
+.sub_button:hover{
+    color: #d7d7d7;
+}
+/*-=-=-=subscription--section--ends*/
